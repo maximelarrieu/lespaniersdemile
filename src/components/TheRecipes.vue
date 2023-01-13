@@ -1,3 +1,32 @@
+<style>
+    .thumbnail img {
+        display: block;
+        filter: brightness(75%)
+    }
+    .thumbnail {
+        position: relative;
+        display: inline-block;
+    }
+    .img-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 576px) {
+        .img-text {
+            font-size: 11px;
+        }
+    }
+    @media (min-width: 577px) {
+        .img-text {
+            font-size: 24px;
+        }
+    }
+</style>
+
 <template>
     <NavBar />
     <div class="mt-5">
@@ -7,20 +36,29 @@
     <div class="container w-75 mt-5 mb-5">
         <div class="row text-center">
             <div class="col p-1 text-center">
-                <a href="" data-bs-toggle="modal" data-bs-target="#pates">
+                <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#pates">
                     <img src="@/assets/images/recettes/pates.png" alt="">
+                    <div class="img-text">
+                        <p class="fw-bolder">Tagliatelles aux asperges</p>
+                    </div>
                 </a>
             </div>
             <div class="col p-1 text-center">
-                <a href="" data-bs-toggle="modal" data-bs-target="#tarte">
+                <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#tarte">
                     <img src="@/assets/images/recettes/betterave.jpg" alt="">
+                    <div class="img-text">
+                        <p class="fw-bolder">Tarte betterave - Chèvre - Noix</p>
+                    </div>
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col p-1 text-center">
-                <a href="" data-bs-toggle="modal" data-bs-target="#potimarons">
+                <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#potimarons">
                     <img src="@/assets/images/recettes/potimarons.jpg" alt="">
+                    <div class="img-text">
+                        <p class="fw-bolder">Soupe de potimarron</p>
+                    </div>
                 </a>
             </div>
             <div class="col p-1 text-center">
