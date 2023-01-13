@@ -23,28 +23,26 @@
                 <a class="nav-link" href="#zita">L'huile de Zita</a>
             </li>
         </ul>
-        <div data-bs-spy="scroll" data-bs-target="#contrats" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" class="mt-5">
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="arches">
-                <TroisArchesContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="olivia">
-                <OliviaContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="chassagne">
-                <ChassagneContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="jarouilles">
-                <JarouillesContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="galinette">
-                <GalinetteContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="matthieu">
-                <BieresContract />
-            </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="zita">
-                <ZitaContract />
-            </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="arches" data-bs-spy="scroll" data-bs-target="#arches" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <TroisArchesContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="olivia" data-bs-spy="scroll" data-bs-target="#olivia" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <OliviaContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="chassagne" data-bs-spy="scroll" data-bs-target="#chassagne" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <ChassagneContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="jarouilles" data-bs-spy="scroll" data-bs-target="#jarouilles" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <JarouillesContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="galinette" data-bs-spy="scroll" data-bs-target="#galinette" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <GalinetteContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="matthieu" data-bs-spy="scroll" data-bs-target="#matthieu" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <BieresContract />
+        </div>
+        <div class="contrat shadow-sm rounded p-2 mt-5" id="zita" data-bs-spy="scroll" data-bs-target="#zita" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <ZitaContract />
         </div>
     </div>
 </template>
