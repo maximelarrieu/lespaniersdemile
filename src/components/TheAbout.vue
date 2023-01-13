@@ -7,11 +7,11 @@
                 <p class="fs-6">19 rue Premeynard 33300 BORDEAUX</p>
                 <div class="pdf-files mt-3">
                     <!-- <input type="file" value="Open" @click="readFile()" />; -->
-                    <a href="" @click="readFile('dist/assets/pdfs/STATUTS-AMAP-LES-PANIERS-D-EMILE.pdf')">Statuts de notre AMAP</a><br />
-                    <a href="" @click="readFile('srdistc/assets/pdfs/Charte-des-AMAP.pdf')">Charte des AMAP</a><br />
+                    <a href="" @click="readFile('public/pdfs/STATUTS-AMAP-LES-PANIERS-D-EMILE.pdf')">Statuts de notre AMAP</a><br />
+                    <a href="" @click="readFile('public/pdfs/pdfs/Charte-des-AMAP.pdf')">Charte des AMAP</a><br />
                     <a href="https://calendar.google.com/calendar/u/0/embed?src=6nbs8j6k939087l8jvctie20ko@group.calendar.google.com&ctz=Europe/Paris" target="_blank">Calendrier des distributions</a>
                     <div class="mt-5">
-                        <a href="" @click="readFile('dist/assets/pdfs/Présentation-AMAP-2022.pdf')">
+                        <a href="" @click="readFile('public/pdfs/Présentation-AMAP-2022.pdf')">
                             <button type="button" class="btn btn-secondary text-uppercase">
                                 <font-awesome-icon icon="fa-solid fa-signs-post" />
                                 Présentation de notre AMAP
