@@ -235,8 +235,10 @@
         </div>
         </div>
     </div>
+    <TheFooter />
   </template>
   
   <script setup>
     import NavBar from './NavBar.vue';
+    import TheFooter from './TheFooter.vue';
   </script>
