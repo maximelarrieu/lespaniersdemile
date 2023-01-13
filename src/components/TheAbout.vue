@@ -21,7 +21,7 @@
                 </div>
                 <h5 class="mt-4">Suivez nous sur Facebook</h5>
                 <font-awesome-icon icon="fa-brands fa-facebook" />
-                <a class="ms-2" href="https://www.facebook.com/lespaniersdemile">+ de 100 personnes aiment déjà notre page</a>
+                <a class="ms-2" href="https://www.facebook.com/lespaniersdemile" target="_blank">+ de 100 personnes aiment déjà notre page</a>
             </div>
             <div class="col p-4 text-center">
                 <div class="about mt-5">
