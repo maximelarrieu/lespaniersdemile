@@ -1,3 +1,32 @@
+<style>
+  .thumbnail img {
+        display: block;
+        filter: brightness(75%)
+    }
+    .thumbnail {
+        position: relative;
+        display: inline-block;
+    }
+    .img-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 576px) {
+        .img-text {
+            font-size: 9px;
+        }
+    }
+    @media (min-width: 577px) {
+        .img-text {
+            font-size: 24px;
+        }
+    }
+</style>
+
 <template>
   <NavBar />
   <div class="mt-5">
@@ -7,25 +36,37 @@
   <div class="container w-75 mt-5 mb-5">
     <div class="row text-center">
       <div class="col p-1 text-center">
-        <a href="" data-bs-toggle="modal" data-bs-target="#courges2021">
+        <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#courges2021">
           <img src="@/assets/images/courges2021.jpg" alt="">
+          <div class="img-text">
+            <p class="fw-bolder">Récolte des courges 2021</p>
+          </div>
         </a>
       </div>
       <div class="col p-1 text-center">
-        <a href="" data-bs-toggle="modal" data-bs-target="#courges2020">
+        <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#courges2020">
           <img src="@/assets/images/courges2020.jpeg" alt="">
+          <div class="img-text">
+            <p class="fw-bolder">Récolte des courges 2020 chez Ylan</p>
+          </div>
         </a>
       </div>
     </div>
     <div class="row">
       <div class="col p-1 text-center">
-        <a href="" data-bs-toggle="modal" data-bs-target="#bokashi">
+        <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#bokashi">
           <img src="@/assets/images/recup.jpg" alt="">
+          <div class="img-text">
+            <p class="fw-bolder">Présentation du compostage partipatif : BOKASHI</p>
+          </div>
         </a>
       </div>
       <div class="col p-1 text-center">
-        <a href="" data-bs-toggle="modal" data-bs-target="#bieres">
+        <a class="thumbnail" href="" data-bs-toggle="modal" data-bs-target="#bieres">
           <img src="@/assets/images/plume-epi-bieres.jpg" alt="">
+          <div class="img-text">
+            <p class="fw-bolder">Dégustation de bière paysanne et écologique</p>
+          </div>
         </a>
       </div>
     </div>
