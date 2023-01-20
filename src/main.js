@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { inject } from '@vercel/analytics';
 import App from './App.vue'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
@@ -19,6 +20,8 @@ library.add(faSignsPost, faLeaf, faFacebook)
 import './assets/main.css'
 
 import router from './router'
+
+inject();
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
