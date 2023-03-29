@@ -23,6 +23,8 @@
                         </a>
                     </div>
                 </div>
+                <h5 class="mt-4">Nous contacter</h5>
+                <p class="fs-6">lespaniersdemile@gmail.com</p>
                 <h5 class="mt-4">Suivez nous sur Facebook</h5>
                 <font-awesome-icon icon="fa-brands fa-facebook" />
                 <a class="ms-2" href="https://www.facebook.com/lespaniersdemile" target="_blank">+ de 100 personnes aiment déjà notre page</a>
