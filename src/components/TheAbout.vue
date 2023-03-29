@@ -10,6 +10,7 @@
                     <a href="" @click="readFile('./pdfs/STATUTS-AMAP-LES-PANIERS-D-EMILE.pdf')">Statuts de notre AMAP</a><br />
                     <a href="" @click="readFile('./pdfs/pdfs/Charte-des-AMAP.pdf')">Charte des AMAP</a><br />
                     <a href="https://calendar.google.com/calendar/u/0/embed?src=6nbs8j6k939087l8jvctie20ko@group.calendar.google.com&ctz=Europe/Paris" target="_blank">Calendrier des distributions</a>
+                    <a href="https://amap-paniers-emile.notion.site/amap-paniers-emile/Les-Paniers-d-mile-ae1760ac1b0642c5a13c1fdbf9e71a97" target="_blank">Notion de notre AMAP</a>
                     <div class="mt-5">
                         <a href="" @click="readFile('./pdfs/Présentation-AMAP-2022.pdf')">
                             <button type="button" class="btn btn-secondary text-uppercase">
