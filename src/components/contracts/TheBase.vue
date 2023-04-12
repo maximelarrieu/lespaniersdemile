@@ -24,25 +24,25 @@
             </li>
         </ul>
         <div data-bs-spy="scroll" data-bs-target="#contrats" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" class="mt-5">
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="arches">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="arches">
                 <TroisArchesContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="olivia">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="olivia">
                 <OliviaContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="chassagne">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="chassagne">
                 <ChassagneContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="jarouilles">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="jarouilles">
                 <JarouillesContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="galinette">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="galinette">
                 <GalinetteContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="matthieu">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="matthieu">
                 <BieresContract />
             </div>
-            <div class="contrat shadow-sm rounded p-2 mt-4" id="zita">
+            <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="zita">
                 <ZitaContract />
             </div>
         </div>
@@ -60,6 +60,11 @@
 </script>
 
 <style>
+    @media (min-width: 992px) {
+        .contrat-lg {
+            width: 75%
+        }
+    }
     .content {
         width: 90%;
     }
