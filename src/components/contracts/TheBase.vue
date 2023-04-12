@@ -44,7 +44,7 @@
             </div>
             <div class="contrat shadow-sm contrat-lg mx-auto rounded p-2 mt-4" id="zita">
                 <ZitaContract />
-            </div>
+            </div> 
         </div>
     </div>
 </template>
